@@ -22,12 +22,13 @@ const typeDefs = `
   	suite: String
   	city: String
   	zipcode: String
-  	geo: Geo
   }
   
-  type Geo {
-  	lat: String
-  	lng: String
+  input AddressInput {
+  	street: String
+  	suite: String
+  	city: String
+  	zipcode: String
   }
   
   type Company {
@@ -43,6 +44,7 @@ const typeDefs = `
 			name: String!
 			email: String!
 			username: String
+			address: AddressInput
 			phone: String
 			website: String
 			companyId: ID
@@ -53,6 +55,7 @@ const typeDefs = `
 			name: String!
 			email: String!
 			username: String
+			address: AddressInput
 			phone: String
 			website: String
 			companyId: ID
@@ -63,31 +66,5 @@ const typeDefs = `
 		): User
 	}
 `;
-
-// fragment userDetails on User {
-// 	firstName
-// 		age
-// }
-//
-// fragment companyDetails on Company {
-// 	id
-// 		name
-// 		description
-// 		users {
-// 	...userDetails
-// 			company {
-// 			name
-// 		}
-// 	}
-// }
-//
-// query findCompany {
-// 	firstCompany: company (id:"1") {
-// 	...companyDetails
-// 	}
-// 	secondCompany:company (id:"2") {
-// 	...companyDetails
-// 	}
-// }
 
 module.exports = typeDefs;

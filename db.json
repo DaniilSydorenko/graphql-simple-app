@@ -9,11 +9,7 @@
         "street": "Kulas Light",
         "suite": "Apt. 556",
         "city": "Gwenborough",
-        "zipcode": "92998-3874",
-        "geo": {
-          "lat": "-37.3159",
-          "lng": "81.1496"
-        }
+        "zipcode": "92998-3874"
       },
       "phone": "1-770-736-8031 x56442",
       "website": "hildegard.org",
@@ -28,11 +24,7 @@
         "street": "Victor Plains",
         "suite": "Suite 879",
         "city": "Wisokyburgh",
-        "zipcode": "90566-7771",
-        "geo": {
-          "lat": "-43.9509",
-          "lng": "-34.4618"
-        }
+        "zipcode": "90566-7771"
       },
       "phone": "010-692-6593 x09125",
       "website": "anastasia.net",
@@ -47,11 +39,7 @@
         "street": "Douglas Extension",
         "suite": "Suite 847",
         "city": "McKenziehaven",
-        "zipcode": "59590-4157",
-        "geo": {
-          "lat": "-68.6102",
-          "lng": "-47.0653"
-        }
+        "zipcode": "59590-4157"
       },
       "phone": "1-463-123-4447",
       "website": "ramiro.info",
@@ -66,11 +54,7 @@
         "street": "Hoeger Mall",
         "suite": "Apt. 692",
         "city": "South Elvis",
-        "zipcode": "53919-4257",
-        "geo": {
-          "lat": "29.4572",
-          "lng": "-164.2990"
-        }
+        "zipcode": "53919-4257"
       },
       "phone": "493-170-9623 x156",
       "website": "kale.biz",
@@ -85,11 +69,7 @@
         "street": "Skiles Walks",
         "suite": "Suite 351",
         "city": "Roscoeview",
-        "zipcode": "33263",
-        "geo": {
-          "lat": "-31.8129",
-          "lng": "62.5342"
-        }
+        "zipcode": "33263"
       },
       "phone": "(254)954-1289",
       "website": "demarco.info",
@@ -97,39 +77,18 @@
     },
     {
       "name": "Daniil Sydorenko",
-      "email": "asdasd@mail.com",
-      "username": "asdasd",
-      "phone": "333-444-555",
-      "website": "www.alalal.com",
-      "companyId": "2",
-      "id": 6
-    },
-    {
-      "name": "Daniil Sydorenko",
-      "email": "asdasd@mail.com",
-      "username": "asdasd",
-      "phone": "333-444-555",
-      "website": "www.alalal.com",
-      "companyId": "2",
-      "id": 7
-    },
-    {
-      "name": "Daniil Sydorenko",
-      "email": "asdasd@mail.com",
-      "username": "asdasd",
-      "phone": "333-444-555",
-      "website": "www.al123.com",
-      "companyId": "2",
-      "id": 8
-    },
-    {
-      "name": "Daniil Sydorenko",
       "email": "daniil@mail.com",
       "username": "daniil",
+      "address": {
+        "street": "test-street",
+        "suite": "test-suite",
+        "city": "test-city",
+        "zipcode": "test-zipcode"
+      },
       "phone": "123-123-123",
       "website": "www.test.com",
       "companyId": "1",
-      "id": 10
+      "id": 6
     }
   ],
   "companies": [
